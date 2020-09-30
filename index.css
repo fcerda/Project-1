@@ -1,0 +1,37 @@
+/* Selector {
+	property: value;
+
+} */
+body {
+  background-image: url('Strength.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+h1{
+	font-size:50px;
+
+}
+
+h1 {text-align: center;}
+
+
+h2{
+	font-size:30px;
+}
+h2{
+	text-align: center;
+}
+
+figure {
+	display: inline-block;
+	
+}
+
+.img {
+	position:fixed;
+	margin-left: 0px;
+	bottom: 50px;
+  	left: 0;
+}
+
