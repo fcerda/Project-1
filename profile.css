@@ -85,12 +85,51 @@ body {
     .column {
       float: left;
       width: 33.33%;
-      padding: 10px;
-      height: 380px; /* Should be removed. Only for demonstration */
+      padding: 20px;
+      height: 480px; /* Should be removed. Only for demonstration */
+    }
+
+    .frame {
+      border:solid;
     }
 
 
 
+/***********************************************************************
+ *  Mobile responsive
+ **********************************************************************/
+ @media only screen and (max-width: 600px) {
+
+  P {
+        font-size: 4vw;
+    }
+
+
+    .zone {
+    /*padding:30px 50px;*/
+    /*cursor:pointer;*/
+    color:#FFF;
+    font-size:30px;
+    border-radius:4px;
+   
+    transition: all 0.3s linear;
+    }
+
+
+    .column {
+     /* float: left;*/
+      width: 100%;
+      padding: 20px;
+      /*height: 480px; *//* Should be removed. Only for demonstration */
+    }
+
+
+
+
+   
+
+
+  }
 
 
 
